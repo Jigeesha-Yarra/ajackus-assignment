@@ -1,6 +1,8 @@
 .user-form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     margin-bottom: 20px;
   }
@@ -13,8 +15,8 @@
   }
   
   .user-form button {
-    background-color: #2196f3;
-    color: white;
+    background-color: #674188;
+    color: #F9F6E6;
     border: none;
     padding: 10px;
     cursor: pointer;

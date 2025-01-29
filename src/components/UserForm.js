@@ -27,7 +27,8 @@ class UserForm extends Component {
     if (id) {
       this.props.onEditUser({ id, name, email, department });
     } else {
-      this.props.onAddUser({ id: Date.now(), name, email, department });
+      const nextId = this.props.users.length > 0 ? Math.max(...this.props.users.map((user) => user.id)) + 1 : 1;
+      this.props.onAddUser({ id: nextId, name, email, department });
     }
 
     this.setState({ id: '', name: '', email: '', department: '' });

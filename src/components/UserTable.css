@@ -10,31 +10,42 @@
   }
   
   th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #FFCCEA;
     padding: 10px;
-    text-align: left;
+    text-align: center;
+    color: #910A67;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   th {
-    background-color: #f5f5f5;
+    font-size: 16px;
+    padding: 6px;
+    text-align: center;
+    background-color: #D864A9;
+    color: #52006A;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   .edit-btn {
-    background-color: #4caf50;
-    color: white;
+    background-color: #347928;
+    color: #D6EFD8;
     border: none;
-    padding: 5px 10px;
+    padding: 10px;
     cursor: pointer;
     border-radius: 4px;
   }
   
   .delete-btn {
-    background-color: #f44336;
+    background-color: #E4003A;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 8px;
     cursor: pointer;
     border-radius: 4px;
+    margin-left: 12px;
+    margin-top: 4px;
   }
   
   button:hover {
@@ -47,11 +58,11 @@
     }
   
     th, td {
-      padding: 8px;
+      padding: 10px;
     }
   
     .edit-btn, .delete-btn {
-      padding: 5px;
+      padding: 10px;
       font-size: 12px;
     }
   }

@@ -50,6 +50,7 @@ class App extends Component {
           onDeleteUser={this.handleDeleteUser}
         />
         <UserForm
+          users = {this.state.users}
           selectedUser={this.state.selectedUser}
           onAddUser={this.handleAddUser}
           onEditUser={this.handleEditUser}
@@ -60,3 +61,5 @@ class App extends Component {
 }
 
 export default App;
+
+
